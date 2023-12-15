@@ -1,0 +1,19 @@
+{
+	"name": "Modbus Server",
+	"keywords": "Potentiostat,DAC,digital,analog,convertor,percentage",
+	"description": "This is a library for abstracting away Instruments and Sensors.\n",
+	"authors": [
+		{
+			"name": "Gustav Wiberg",
+			"email": "g.wiberg@nordicec.com",
+			"maintainer": true
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Guswib/modbus_server"
+	},
+	"version": "1.1.6",
+	"frameworks": "arduino",
+	"platforms": "*"
+}

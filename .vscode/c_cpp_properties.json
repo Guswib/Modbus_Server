@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:USERPROFILE}\\Documents\\Arduino\\libraries\\**",
+                "${env:USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\**",
+                "${env:USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\avr\\include\\**",
+                "${env:USERPROFILE}\\Documents\\GitHub\\Virtual_Instrument\\src\\**",
+                "${env:USERPROFILE}\\Documents\\GitHub\\Virtual_Potentiostat\\src\\**",
+                "${env:USERPROFILE}\\Documents\\GitHub\\MCU_NanoEvery\\src\\**",
+                "${env:USERPROFILE}\\Documents\\GitHub\\EC_Circuit\\src\\**",
+                "${env:USERPROFILE}\\Documents\\Arduino\\Libraries\\**",
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "ARDUINO_AVR_MEGA2560",
+                "PIN_WIRE_SDA 1",
+                "PIN_WIRE_SCL 2"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

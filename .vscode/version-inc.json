@@ -1,0 +1,66 @@
+{
+	"version": "1.1.6",
+	"dateTime": {
+		"year": 2023,
+		"month": 8,
+		"day": 20,
+		"hours": 17,
+		"minutes": 38,
+		"seconds": 4
+	},
+	"last_version": "1.1.5",
+	"last_dateTime": {
+		"year": 2023,
+		"month": 8,
+		"day": 20,
+		"hours": 17,
+		"minutes": 36,
+		"seconds": 33
+	},
+	"json-files": [
+		{
+			"Filename": "File1.json",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true
+		},
+		{
+			"Filename": "File2.json",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true
+		},
+		{
+			"Filename": "library.json",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true
+		}
+	],
+	"txt-files": [
+		{
+			"Filename": "File1.ABC",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true,
+			"Patterns": [
+				"Version v-inc"
+			]
+		},
+		{
+			"Filename": "File2.ABC",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true,
+			"Patterns": [
+				"File Version...: V-INC",
+				"Product version: v-inc",
+				"Last Modification: ${MONTHTEXTL} ${DATE} ${YEAR4}",
+				"     At: ${H12}:${MIN}:${SEC} ${AMPMU}"
+			]
+		},
+		{
+			"Filename": "library.properties",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true,
+			"Patterns": [
+				"version=V-INC"
+			]
+		}
+	]
+}
